@@ -1,0 +1,21 @@
+# Build outputs
+/x64/Build/
+/x64/Release/
+*.obj
+*.dll
+*.exe
+*.pdb
+*.zip
+*.log
+
+# Verification scratch directories
+/x64/Build/verify-private-key/
+/x64/Build/verify-public-key/
+
+# Local configuration and secrets
+/2026patch.local.ini
+*.configured.ini
+*.key
+*.pem
+*.pfx
+*.snk
