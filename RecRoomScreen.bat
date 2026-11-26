@@ -14,7 +14,7 @@ if errorlevel 1 (
 set "SCHOOLSOUT_TRACE_QUIT=1"
 set "SCHOOLSOUT_SUPPRESS_CHEAT_QUIT=1"
 set "SCHOOLSOUT_SUPPRESS_EXIT_STATE=1"
-set "SCHOOLSOUT_GAME_ARGS=+forcemode:screen -screen-width 1280 -screen-height 720 -screen-fullscreen 1"
+set "SCHOOLSOUT_GAME_ARGS=+forcemode:screen"
 start "Injector" "%~dp0Injector.exe" --launch
 timeout /t 1 /nobreak >nul
 "%~dp0Injector.exe" --wait-ready
