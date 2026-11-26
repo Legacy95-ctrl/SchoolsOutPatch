@@ -128,7 +128,7 @@ injects through the initial breakpoint, applies the runtime session fix,
 detaches cleanly, and waits for exit.
 
 `RecRoomScreen.bat` preserves
-`+forcemode:screen -screen-width 1280 -screen-height 720 -screen-fullscreen 1`.
+`+forcemode:screen`.
 `RecRoomVR.bat` preserves `+forcemode:vr`. Custom launch arguments are passed
 through `SCHOOLSOUT_GAME_ARGS`.
 
