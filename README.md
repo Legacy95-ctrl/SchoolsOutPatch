@@ -1,7 +1,7 @@
 # SchoolsOutPatch
 
 Windows x64 patch package for the Rec Room client build
-`2026-03-31T03-05-36Z_473be467`. It redirects configured backend hostnames,
+`20260323.01`. It redirects configured backend hostnames,
 allows a public voice RSA key, suppresses an image-signature check and a DUID
 mismatch check, and keeps the client alive through the managed quit paths that
 were observed on the target build.
@@ -96,7 +96,7 @@ public/private key handling, launcher arguments, and the required source RVAs.
 The developed target folder on this machine is:
 
 ```text
-C:\Users\PC\Desktop\2026-03-31T03-05-36Z_473be467
+C:\Users\YourUser\Path\To\RecRoom
 ```
 
 When deploying to another machine, use that machine's equivalent game folder.
