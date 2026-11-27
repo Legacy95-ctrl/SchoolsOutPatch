@@ -96,7 +96,7 @@ public/private key handling, launcher arguments, and the required source RVAs.
 The developed target folder on this machine is:
 
 ```text
-C:\Users\YourUser\Path\To\RecRoom
+C:\Path\To\RecRoom
 ```
 
 When deploying to another machine, use that machine's equivalent game folder.
